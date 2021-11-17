@@ -28,18 +28,13 @@ const options = {
             start.removeAttribute('disabled')
             inputRef.setAttribute('disabled', true)
             selectedDate = selectedDates[0]
-
         }
-
     },
 };
 
 function addLeadingZero(value) {
     return `${value}`.padStart(2, '0')
 }
-
-    
-
 
 start.addEventListener('click', () => {
 const timer = setInterval(() => {
