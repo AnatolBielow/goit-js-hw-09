@@ -16,3 +16,36 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.color__button {
+  margin: 200px 5px;
+  padding: 15px 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.color__buttons {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.timer {
+  display: flex;
+}
+
+.value {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+
+}
+
+.label {
+  display: block;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.field {
+  margin-right: 10px;
+  margin-top: 15px;
+}
